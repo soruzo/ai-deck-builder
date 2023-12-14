@@ -1,0 +1,59 @@
+# Bytecode compilado do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Arquivos de teste
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ferramentas de IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Docker
+.dockerignore
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados
+*.sqlite
+
+# Pasta node_modules para projetos que incluem código front-end
+node_modules/
